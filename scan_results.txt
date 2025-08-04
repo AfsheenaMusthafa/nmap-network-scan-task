@@ -1,0 +1,23 @@
+
+C:\Users\afshi>nmap -sS 172.20.10.0/28 -oN scan_results.txt
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 14:53 +0530
+Nmap scan report for 172.20.10.1
+Host is up (0.015s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE SERVICE
+21/tcp    open  ftp
+53/tcp    open  domain
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: AE:45:00:C8:63:64 (Unknown)
+
+Nmap scan report for 172.20.10.5
+Host is up (0.00079s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+6881/tcp open  bittorrent-tracker
+
+Nmap done: 16 IP addresses (2 hosts up) scanned in 8.89 seconds
