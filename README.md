@@ -44,7 +44,7 @@ nmap -sS 172.20.10.0/28
 - **Dynamic/High Ports (49152, etc.)** – Often overlooked but can be exploited
 
 Ensure proper firewall configurations and disable unnecessary services.
-<details> <summary>✨ Copy & paste this:</summary>
+<details> <summary>
 ## 📁 Project Structure
 nmap-network-scan-task/
 │
@@ -53,6 +53,7 @@ nmap-network-scan-task/
 │ └── scan_result.png
 │
 ├── scan_results.txt
-└── README.md 
+└── README.md
+</summary>
 </details>
 
